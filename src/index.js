@@ -25,9 +25,15 @@ class App extends React.Component {
     {
       return <SeasonDisplay  lat={this.state.lat} />
     }
-    return <Spinner />
-
+    return <Spinner loadmsg="Please give Location access " />
   }
+}
+/* make change in render add above render
+render() {
+  return(
+    <div className ="border-red">{this.renderContent()} </div>
+  );
 };
+*/
 
 ReactDOM.render(<App />, document.querySelector('#root'));
