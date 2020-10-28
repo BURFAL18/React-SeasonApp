@@ -29,7 +29,7 @@ This Web Application shows current Season by using Geological Location  of user.
 ![Screenshot (53)](https://user-images.githubusercontent.com/56060354/97414780-6e9c7400-192a-11eb-800c-6a56668cad98.png)
 
 ### API 
-* [GeoLoaction]
+* [GeoLocation]
 
 
 ### Tech
